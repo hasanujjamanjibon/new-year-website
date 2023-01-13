@@ -1,0 +1,98 @@
+@media screen and (max-width: 576px) {
+  header {
+    background-image: none;
+    background-color: #0099d5;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    height: 100vh;
+    padding: 0 !important;
+  }
+
+  .container {
+    width: auto;
+  }
+  .header-section > .header-title {
+    font-size: 3.0625rem;
+    line-height: 3.0625rem;
+  }
+  .header-section > .header-description {
+    padding-left: 0;
+  }
+  .header-section {
+    text-align: center;
+  }
+  .my-strength > .container > .my-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 25px;
+  }
+  .my-strength > .container > .strength-text {
+    width: 100%;
+    margin-left: 0;
+  }
+  .my-strength > .container > .strength-text > .image-title {
+    padding-right: 0;
+  }
+  .plan-section .plan-box > .plan-card {
+    width: 100%;
+    height: auto;
+    padding: 25px 0;
+  }
+  .gallery-section > .container > .gallery {
+    gap: 10px;
+  }
+  .gallery-section > .container > .gallery > img {
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+  .gallery-section > .container > .gallery > .imgSec-2 > .img-2 {
+    margin-bottom: 10px;
+  }
+  .gallery-section > .container > .gallery > .imgSec-2 > img {
+    width: 100%;
+    padding: 0;
+  }
+  .banner {
+    padding: 30px;
+    height: auto;
+    background: linear-gradient(
+      to bottom,
+      #005fac 0%,
+      rgba(0, 95, 172, 0) 100%
+    );
+  }
+  .banner > .banner-header {
+    color: #fff;
+  }
+  .callNow-btn {
+    min-width: 130px;
+  }
+  .footer-section > .container {
+    padding-top: 0;
+    gap: 25px;
+  }
+  .footer-section > .container .footer-text > .footer-title {
+    margin-top: 16px;
+  }
+  .footer-section > .container .footer-text > .footer-subtitle {
+    padding-right: 0;
+  }
+  .footer-section > .container > .footer-text {
+    width: 100%;
+  }
+  .footer-section > .container > .footer-contact {
+    width: 100%;
+  }
+
+  .flex-column {
+    flex-direction: column;
+  }
+  .d-block {
+    display: inline;
+  }
+  .container {
+    max-width: 90%;
+  }
+}

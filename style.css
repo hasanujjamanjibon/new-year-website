@@ -69,7 +69,7 @@ header {
 /* my-strength Section Css Start */
 .my-strength {
   width: 100%;
-  height: fit-content;
+  height: auto;
 }
 .my-strength > .container {
   display: flex;
@@ -129,7 +129,7 @@ header {
 }
 .plan-section .plan-box > .plan-card {
   width: 24.25%;
-  height: fit-content;
+  height:auto;
 }
 
 .plan-section .plan-box > .plan-card > .plan-image {
